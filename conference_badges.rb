@@ -18,4 +18,11 @@ def assign_rooms(speakers)
   new_array
 end
 
-def printer
+def printer(method)
+  batch_badge_creator(method).each do |items|
+    puts item 
+  end
+  assign_rooms(method).each do |items|
+    puts item
+  end
+end
